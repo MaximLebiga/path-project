@@ -1,0 +1,39 @@
+.wrapper {
+  display: grid;
+  padding: 30px 16px 35px;
+  justify-content: flex-start;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 40px;
+}
+
+.benefits {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 20px;
+}
+
+.title {
+  font-family: var(--font-main);
+  color: var(--black);
+  font-weight: 500;
+}
+
+@media screen and (min-width: 960px) {
+  .wrapper {
+    padding: 55px 104px 47px;
+     justify-content: center;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .benefits {
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+  } 
+}

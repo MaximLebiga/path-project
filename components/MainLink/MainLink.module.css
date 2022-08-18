@@ -1,0 +1,29 @@
+.wrapper {
+  padding: 16px;
+  width: fit-content;
+}
+
+.wrapper_filled {
+  padding: 16px;
+  width: fit-content;
+  background-color: var(--blue);
+  border-radius: 4px;
+}
+
+.nav_link {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.nav_link_filled {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--white);
+  text-decoration: none;
+}
