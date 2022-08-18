@@ -1,3 +1,7 @@
+.section {
+  position: relative;
+}
+
 .hero {
   padding: 52px 16px 35px;
   display: grid;
@@ -51,6 +55,10 @@
   grid-area: thirdImg;
 }
 
+.snow {
+  display: none;
+}
+
 @media screen and (min-width: 960px) {
   .wrapper {
     grid-template-columns: 1fr auto auto;
@@ -71,5 +79,13 @@
 
   .content {
     padding-right: 77px;
+  }
+
+  .snow {
+    position: absolute;
+    display: block;
+    z-index: -1;
+    left: -10px;
+    bottom: -220px;
   }
 }

@@ -1,3 +1,8 @@
+.section {
+  z-index: 2;
+  position: relative;
+}
+
 .wrapper {
   display: grid;
   justify-content: center;
@@ -102,6 +107,10 @@
   margin-right: 10px;
 }
 
+.snow {
+  display: none;
+}
+
 @media screen and (min-width: 960px) {
   .wrapper {
     padding: 77px 104px 93px;
@@ -117,8 +126,9 @@
   }
 
   .image {
-  justify-content: end;
-}
+    justify-content: end;
+    margin-left: 100px;
+  }
 
   .text {
     font-size: 28px;
@@ -129,5 +139,13 @@
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 40px;
+  }
+
+  .snow {
+    position: absolute;
+    display: block;
+    z-index: 0;
+    left: -10px;
+    top: 50px;
   }
 }
