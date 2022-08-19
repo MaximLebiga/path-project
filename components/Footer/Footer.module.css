@@ -3,7 +3,7 @@
   display: grid;
   background-color: var(--blue);
   grid-template-columns: 1fr;
-  row-gap: 64px;
+  row-gap: 32px;
 }
 
 .content {
@@ -13,7 +13,7 @@
     "messangers"
     "navigation"
     "policy";
-  row-gap: 64px;
+  row-gap: 32px;
   justify-self: flex-start;
 }
 
@@ -22,6 +22,7 @@
 }
 
 .nav {
+  padding: 32px 0px;
   display: flex;
   flex-direction: column;
   grid-area: navigation;
@@ -90,6 +91,7 @@
 }
 
 .subscribe {
+  padding-top: 32px;
   display: flex;
   flex-direction: column;
 }

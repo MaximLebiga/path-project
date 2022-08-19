@@ -3,7 +3,8 @@ import { useEffect, useState } from "react"
 import Img from "../../images/reviews/image.png"
 import style from "./Reviews.module.css"
 import star from "../../images/reviews/star.png"
-import Snow from "../../images/reviews/snow.svg"
+import MiniSnowflake from "../../icons/MiniSnowflake"
+import Snowflake from "../../icons/Snowflake"
 
 const Reviews = ({rating}) => {
   const [starsArray, setStarsArray] = useState([])
@@ -45,7 +46,8 @@ const Reviews = ({rating}) => {
           </div>
         </div>
       </div>
-      <Snow className={style.snow} />
+      <MiniSnowflake className={style.mini_snowflake} fill="white" />
+      <Snowflake className={style.snowflake} fill="white" />
     </div>
   )
 }

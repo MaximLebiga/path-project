@@ -3,8 +3,9 @@ import MainLink from "../MainLink/MainLink"
 import firstImage from "../../images/hero/first_image.png"
 import secondImage from '../../images/hero/second_image.png'
 import thirdImage from '../../images/hero/third_image.png'
-import Snow from "../../images/hero/snow.svg"
 import style from "./Hero.module.css"
+import MiniSnowflake from '../../icons/MiniSnowflake'
+import Snowflake from '../../icons/Snowflake'
 
 const Hero = () => {
   return (
@@ -28,7 +29,8 @@ const Hero = () => {
       <div className={style.third_img}>
         <Image src={thirdImage} alt="" />
       </div>
-      <Snow className={style.snow} />
+      <MiniSnowflake className={style.mini_snowflake} fill="#EBF4FE" />
+      <Snowflake className={style.snowflake} fill="#EBF4FE" />
     </div>
   )
 }

@@ -1,7 +1,6 @@
 import LogoIcon from "../../images/header/logo.svg"
 import BurgerIcon from '../../images/header/burger.svg'
 import style from "./Header.module.css"
-import Link from "next/link"
 import { useState } from "react"
 import MainLink from "../MainLink/MainLink"
 
