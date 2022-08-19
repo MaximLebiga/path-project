@@ -8,12 +8,6 @@
   margin-bottom: 64px;
 }
 
-/* .wrapper > div {
-  display: grid;
-  grid-template-columns: auto;
-  row-gap: 30px;
-} */
-
 .content_wrapper {
   display: grid;
   grid-template-columns: auto;
