@@ -1,11 +1,7 @@
 .wrapper {
   display: grid;
   padding: 30px 16px 35px;
-  justify-content: flex-start;
-}
-
-.content {
-  display: grid;
+  justify-content: center;
   grid-template-columns: auto;
   row-gap: 40px;
 }
@@ -25,7 +21,6 @@
 @media screen and (min-width: 960px) {
   .wrapper {
     padding: 55px 104px 47px;
-     justify-content: center;
   }
 
   .title {

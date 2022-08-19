@@ -18,13 +18,13 @@ const Header = () => {
         <LogoIcon className={style.logo_icon} />
         <div className={style.nav}>
           <div className={style.links_wrapper}>
-            <MainLink text="Home" extraStyles={style.nav_link} />
-            <MainLink text="About Us" extraStyles={style.nav_link} />
-            <MainLink text="FAQs" extraStyles={style.nav_link} />
+            <MainLink text="Home" />
+            <MainLink text="About Us" />
+            <MainLink text="FAQs" />
           </div>
           <div className={style.links_wrapper}>
-            <MainLink text="Log In" extraStyles={style.nav_link} />
-            <MainLink text="Get Started" extraStyles={style.nav_link} filled />
+            <MainLink text="Log In" />
+            <MainLink text="Get Started" filled />
           </div>
         </div>
         <button className={style.menu_button} onClick={handleMenuButtonClick}>
@@ -34,13 +34,13 @@ const Header = () => {
       {isOpen && (
         <div className={style.menu}>
           <div className={style.links_wrapper}>
-            <MainLink text="Home" extraStyles={style.nav_link} />
-            <MainLink text="About Us" extraStyles={style.nav_link} />
-            <MainLink text="FAQs" extraStyles={style.nav_link} />
+            <MainLink text="Home" />
+            <MainLink text="About Us" />
+            <MainLink text="FAQs" />
           </div>
           <div className={style.links_wrapper}>
-            <MainLink text="Log In" extraStyles={style.nav_link} />
-            <MainLink text="Get Started" extraStyles={style.nav_link} filled />
+            <MainLink text="Log In" />
+            <MainLink text="Get Started" filled />
           </div>
         </div>
       )}

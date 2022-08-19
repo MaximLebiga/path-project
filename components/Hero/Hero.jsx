@@ -9,30 +9,24 @@ import style from "./Hero.module.css"
 const Hero = () => {
   return (
     <div className={style.section}>
-      <div>
-        <div className={style.hero}>
-          <div className={style.wrapper}>
-            <div className={style.content}>
-              <h1 className={style.title}>
-                Getting interviews should be simple, fast, and fun.
-              </h1>
-              <p className={style.text}>
-                Path is a coach that gives you power over your own software
-                developer job search.
-              </p>
-              <MainLink text="Get Started" filled />
-            </div>
-            <div className={style.first_img}>
-              <Image src={firstImage} alt="" />
-            </div>
-            <div className={style.second_img}>
-              <Image src={secondImage} alt="" />
-            </div>
-            <div className={style.third_img}>
-              <Image src={thirdImage} alt="" />
-            </div>
-          </div>
-        </div>
+      <div className={style.content}>
+        <h1 className={style.title}>
+          Getting interviews should be simple, fast, and fun.
+        </h1>
+        <p className={style.text}>
+          Path is a coach that gives you power over your own software developer
+          job search.
+        </p>
+        <MainLink text="Get Started" filled />
+      </div>
+      <div className={style.first_img}>
+        <Image src={firstImage} alt="" />
+      </div>
+      <div className={style.second_img}>
+        <Image src={secondImage} alt="" />
+      </div>
+      <div className={style.third_img}>
+        <Image src={thirdImage} alt="" />
       </div>
       <Snow className={style.snow} />
     </div>

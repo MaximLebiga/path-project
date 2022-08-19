@@ -1,9 +1,6 @@
 .section {
   z-index: 2;
   position: relative;
-}
-
-.wrapper {
   display: grid;
   justify-content: center;
   padding: 52px 16px 40px;
@@ -11,11 +8,11 @@
   margin-bottom: 64px;
 }
 
-.wrapper > div {
+/* .wrapper > div {
   display: grid;
   grid-template-columns: auto;
   row-gap: 30px;
-}
+} */
 
 .content_wrapper {
   display: grid;
@@ -38,6 +35,7 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 40px;
+  margin-bottom: 34px;
 }
 
 .image {
@@ -103,8 +101,8 @@
   align-self: flex-start;
 }
 
-.star:not(:last-child) {
-  margin-right: 10px;
+.rating > *:not(:last-child) {
+  margin-right: 8px;
 }
 
 .snow {
@@ -112,17 +110,14 @@
 }
 
 @media screen and (min-width: 960px) {
-  .wrapper {
+  .section {
     padding: 77px 104px 93px;
     margin-bottom: 104px;
   }
 
-  .wrapper > div {
-    row-gap: 58px;
-  }
-
   .title {
     text-align: center;
+    margin-bottom: 58px;
   }
 
   .image {
@@ -144,7 +139,7 @@
   .snow {
     position: absolute;
     display: block;
-    z-index: 0;
+    z-index: -1;
     left: -10px;
     top: 50px;
   }

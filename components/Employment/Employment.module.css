@@ -1,14 +1,10 @@
-.wrapper {
+.section {
   display: grid;
-  /* padding: 47px 104px 47px; */
   padding: 30px 16px 55px;
-}
-
-.wrapper > div {
-  display: grid;
   grid-template-columns: auto;
   row-gap: 20px;
   align-items: center;
+  justify-content: center;
 }
 
 .title {
@@ -28,6 +24,7 @@
   letter-spacing: 0.0015em;
   color: var(--black);
   margin-bottom: 24px;
+  max-width: 396px;
 }
 
 .text > span {
@@ -36,11 +33,8 @@
 
 
 @media screen and (min-width: 960px) {
-  .wrapper {
+  .section {
     padding: 47px 104px 95px;
-  }
-
-  .wrapper > div {
     grid-template-columns: auto auto;
     column-gap: 100px;
   }
