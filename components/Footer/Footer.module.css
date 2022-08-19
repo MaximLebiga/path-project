@@ -144,7 +144,7 @@
 
 @media screen and (min-width: 960px) {
   .section {
-    padding: 42px 104px 32px;
+    padding: 32px 104px;
     grid-template-columns: auto auto;
     grid-template-areas: 
       "content subscribe";
@@ -174,5 +174,13 @@
   .policy_links:not(:last-child) {
     margin-bottom: 0px;
     margin-right: 25px;
+  }
+
+  .logo {
+    margin-left: 16px;
+  }
+
+  .messangers {
+    padding-top: 11px;
   }
 }
